@@ -1,0 +1,179 @@
+{
+    "editor.tokenColorCustomizations":
+    {
+        // Blacks
+        // #939393
+        // #424242
+        // #121212
+        // #090909
+
+        // Blues
+        // #00426A
+        // #006099
+        // #009DFF
+
+        // Reds
+        // #A90000
+
+        "textMateRules":
+        [
+            {
+                "name": "source",
+                "scope": "source",
+                "settings":
+                {
+                    "foreground": "#939393"
+                }
+            },
+            {
+                "name": "storage",
+                "scope": "storage",
+                "settings":
+                {
+                    "foreground": "#00426A"
+                }
+            },
+            {
+                "name": "constant",
+                "scope": "constant.language",
+                "settings":
+                {
+                    "foreground": "#009DFF"
+                }
+            },
+            {
+                "name": "constant character",
+                "scope": "constant.character",
+                "settings":
+                {
+                    "foreground": "#424242"
+                }
+            },
+            {
+                "name": "variables",
+                "scope":
+                [
+                    "variable",
+                    "entity.name.variable"
+                ],
+                "settings":
+                {
+                    "foreground": "#AEAEAE"
+                }
+            }
+        ],
+
+        "strings": "#00426A",
+        "comments": "#424242",
+        "functions": "#009DFF",
+        "keywords": "#00426A",
+        "numbers": "#939393",
+        "types": "#006099",
+        "variables": "#009DFF"
+    },
+
+    "window.zoomLevel": -1,
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.iconTheme": "easy-icons",
+    "workbench.colorCustomizations":
+    {
+        "foreground": "#939393",
+        "button.foreground": "#939393",
+        "badge.foreground": "#939393",
+        "statusBar.foreground": "#939393",
+        "input.foreground": "#939393",
+        "editorLineNumber.foreground": "#939393",
+        "editorCursor.foreground": "#939393",
+        "editor.selectionForeground": "#939393",
+
+        "editor.background": "#121212",
+        "activityBar.background": "#121212",
+        "list.inactiveSelectionBackground": "#121212",
+        "sideBarSectionHeader.background": "#121212",
+        "list.inactiveFocusBackground": "#121212",
+        "list.hoverBackground": "#121212",
+        "peekViewResult.background": "#121212",
+        "statusBarItem.hoverBackground": "#121212",
+        "welcomePage.buttonHoverBackground": "#121212",
+
+        "sideBar.background": "#090909",
+        "scrollbarSlider.background": "#090909",
+        "dropdown.background": "#090909",
+        "input.background": "#090909",
+        "editorGroupHeader.tabsBackground": "#090909",
+        "editorGroupHeader.noTabsBackground": "#090909",
+        "tab.inactiveBackground": "#090909",
+        "dropdown.border": "#090909",
+        "editorGutter.background": "#090909", 
+        "editorWidget.background": "#090909",
+        "peekViewEditor.background": "#090909",
+        "panel.background": "#090909",
+        "statusBar.background": "#090909",
+        "notification.background": "#090909",
+        "welcomePage.buttonBackground": "#090909",
+        "editorIndentGuide.background": "#090909",
+
+        "editor.selectionBackground": "#00131F",
+        "editor.hoverHighlightBackground": "#00131F",
+        
+        "activityBarBadge.background": "#00426A",
+        "button.background": "#00426A",
+        "badge.background": "#00426A",
+        "progressBar.background": "#00426A",
+        "titleBar.activeBackground": "#00426A",
+        "list.activeSelectionBackground": "#00426A",
+        "tab.inactiveForeground": "#00426A",   
+        "editorBracketMatch.background": "#00426A",
+        "editorGutter.modifiedBackground": "#00426A",
+        "peekViewEditor.matchHighlightBackground": "#00426A",
+        "panelTitle.inactiveForeground": "#00426A",
+        "statusBar.debuggingBackground": "#00426A",
+        "statusBarItem.prominentBackground": "#00426A",
+        "extensionButton.prominentBackground": "#00426A",
+        "sideBarTitle.foreground": "#00426A",
+
+        "activityBar.foreground": "#009DFF",
+        "button.hoverBackground": "#009DFF",
+        "sideBarSectionHeader.foreground": "#009DFF",
+        "tab.activeForeground": "#009DFF",
+        "editorCodeLens.foreground": "#009DFF",
+        "editorGutter.addedBackground": "#009DFF",
+        "panelTitle.activeForeground": "#009DFF",
+        "statusBarItem.prominentHoverBackground": "#009DFF",
+        "extensionButton.prominentHoverBackground": "#009DFF",
+
+        "editorGutter.deletedBackground": "#A90000",
+        "errorForeground": "#A90000",
+
+        // Disabled Elements
+        "tab.border": "#FFFFFF00",
+        "editorGroup.border": "#FFFFFF00",
+        "scrollbar.shadow": "#FFFFFF00",
+        "sideBar.border": "#FFFFFF00",
+        "editorBracketMatch.border": "#FFFFFF00",
+        "widget.shadow": "#FFFFFF00",
+        "editorWidget.border": "#FFFFFF00",
+        "peekView.border": "#FFFFFF00",
+        "panel.border": "#FFFFFF00",
+        "statusBar.border": "#FFFFFF00",
+        "editorOverviewRuler.border": "#FFFFFF00",
+        "activityBar.border": "#FFFFFF00",
+        "contrastBorder": "#FFFFFF00",
+        "contrastActiveBorder": "#FFFFFF00",
+        "focusBorder": "#FFFFFF00",
+
+        // Merge Conflict Stuff
+        "merge.currentContentBackground": "#00426A89",
+        "merge.currentHeaderBackground": "#00426A",
+
+        "merge.incomingContentBackground": "#009DFF89",
+        "merge.incomingHeaderBackground": "#009DFF"
+
+    },
+
+    "workbench.colorTheme": "Retro Theme",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "terminal.integrated.fontFamily": "NovaMono for Powerline",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.2
+}
